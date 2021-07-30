@@ -15,7 +15,7 @@ def play():
     return 'Game result: you lost!', computer
 
 def user_win(player, opponent):
-     if (player == 'r' and opponent =='scissors') or (player == 'scissors' and opponent == 'paper') or (player == 'paper' and opponent == 'rock'):
+     if (player == 'rock' and opponent =='scissors') or (player == 'scissors' and opponent == 'paper') or (player == 'paper' and opponent == 'rock'):
          return True
     #returns True if user wins
     #rock beats scissors, scissors beat paper, paper beats rock
